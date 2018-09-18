@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color:#000;
+}
+
+span {
+	color: #32B8F0;
+}
+
+.iconos {
+	font-size: 20px;
+	margin: 8px 8px;
+}
+
+.iconos li{
+	display: inline-block;
+}
+
+.color {
+	color: #fff;
+}
+
+.barra-azul {
+	background-color: #32B8F0;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+}
+
+.header-area .sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.header-area .sticky{
+    background-color: #252525!important;
+}
+
+#sec-carousel p{
+	color: #fff;
+}
+
+.espaciado{
+	padding: 100px 0;
+}
+
+/*Owl Carousel*/
+.app-carousel {
+    padding: 0 6%;
+	margin-top: 50px;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+.owl-carousel .owl-item img{
+	width: inherit;
+	
+}
+
+.app-carousel h4 {
+	color:#fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#sec-testimonials p{
+	color: #fff;
+	font-weight: 500;
+}
+
+.app-carousel h5{
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#sec-testimonials{
+	background-image:url(../img/bg-testimonials.jpg);
+	background-repeat: repeat-y;
+	background-size: cover;
+	margin-bottom: 40px;
+	align-content: center;
+}
+
+.titulo{
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.img2 {
+	margin-left: 440px;
+}
+
+
+.span{
+	padding: 0 100px;
+}
+
+footer{
+	background-color: #252525;
+	color: #fff;
+	padding: 5% 0;
+	text-align: center;
+}
+
+
+footer a {
+	color: #fff;
+	text-align: right;
+	margin: 0 7px;
+}
+
+footer p{
+	color: #fff;
+	margin-top: 50px;
+}
