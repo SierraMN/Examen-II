@@ -144,3 +144,107 @@ footer p{
 	color: #fff;
 	margin-top: 50px;
 }
+
+#sec-work .texto,
+.texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	background-color: rgba(52, 152, 219, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+#sec-work .texto h3{
+	color: #fff;
+	font-weight: 600;
+}
+
+#sec-classes .class:hover .texto,
+.class:hover .texto
+{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+
+.simbolo{
+	margin-left: 28px;
+}
+
+.simbolo i{
+	margin-left: 11px;
+}
+
+.simbolo a{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #06C;
+	display: block;
+	border-radius: 100%;
+	color: #000;
+	text-decoration: none;
+}
+
+.simbolo a:hover{
+	background-color: #069;
+	color: #000;
+	transition: all ease 0.3s;
+}
+
+.space{
+padding-top: 40px;	
+}
+
+#work h2{
+	text-align:center;	
+}
+
+.barra{
+	background-color: #06F;
+	width: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 4px;
+}
+
+.espacio{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#datos{
+	text-align:center;
+	color: #fff;
+	background-color: #3D4747;
+	padding: 100px 0;
+}
+
+.far{
+	color: #06F;
+}
+.fas{
+	color: #06F;
+}
+
+#sec-team .nombre{
+  margin-top: 15px;
+}
+
+#sec-team .clientes{
+  margin-top: 15px;
+}
+
+#sec-team h2{
+	text-align:center;
+}
+
+.separacion{
+	padding: 50px;
+}
